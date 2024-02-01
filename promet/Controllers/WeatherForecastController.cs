@@ -43,7 +43,7 @@ namespace promet.Controllers
         {
             var rng = new Random();
             Console.WriteLine("test");
-            //throw new Exception("Hello");..
+            //throw new Exception("Hello");....
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),
