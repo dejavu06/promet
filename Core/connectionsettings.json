@@ -1,7 +1,7 @@
 ﻿{
   "ConnectionStrings": {
     "API_MANAGER_DB": "User ID=tolga.erdogan;Password=***Kuzey06..;Server=10.10.17.124;Port=5432;Database=ApiManagerDB;Integrated Security=true;Pooling=true;sslmode=Require;Trust Server Certificate=true"
-      //
+      //test
   }
   
 } 
