@@ -57,7 +57,7 @@ namespace promet.Controllers
         public IEnumerable<WeatherForecast> GetDbFirewallListSas()
         {
             var rng = new Random();
-            //throw new Exception("Hello get");..
+            //throw new Exception("Hello get");..test
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),
